@@ -90,9 +90,10 @@ body {
 
 .item a:hover {
     background-color: #0056b3;
+	
 }
 .contact-info.card {
-    background-color: #;
+    background-color: #FFFFFF;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
@@ -110,5 +111,37 @@ body {
 }
 
 .contact-info.card a:hover {
+    text-decoration: underline;
+}
+.contact-banner {
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: space-between; /* Space between columns */
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-top: 2px solid #ccc;
+}
+
+.contact-column {
+    flex: 1; /* Allow columns to grow equally */
+    margin: 0 10px; /* Add some space between columns */
+    padding: 10px;
+}
+
+.contact-column h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-column p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.contact-column a {
+    color: #007BFF; /* Link color */
+    text-decoration: none;
+}
+
+.contact-column a:hover {
     text-decoration: underline;
 }
