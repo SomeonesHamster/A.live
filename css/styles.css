@@ -18,7 +18,7 @@ header {
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #fff0e0;
+	background-color: #FFFFFF;
 }
 
 /* Effect on social media buttons */
@@ -90,4 +90,25 @@ body {
 
 .item a:hover {
     background-color: #0056b3;
+}
+.contact-info.card {
+    background-color: #;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+.contact-info.card h2 {
+    color: #000000;
+}
+
+.contact-info.card a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.contact-info.card a:hover {
+    text-decoration: underline;
 }
