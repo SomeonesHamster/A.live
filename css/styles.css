@@ -8,13 +8,9 @@ body {
 	font-family: Raleway, sans-serif;
 	background-color: #fffcf8;
 }
-
-/* Changing the background colour for the header */
-
-header {
-	background-color: #000060;
+h2{
+	color: white;
 }
-
 h3 {
 	color: white
 }
@@ -80,6 +76,7 @@ footer a:hover {
 .nav-link {
     color: #ffffff; /* Set text color to white for contrast */
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Optional: Add a text shadow for better readability */
+	transition: color 0.7s; /* Smooth transition for hover effect */
 }
 
 .nav-link:hover {
@@ -96,12 +93,17 @@ footer a:hover {
 		0 0 .5em white;
 }
 
-header {
+.gradient-header {
     border-radius: 25px; /* Rounded corners */
     overflow: hidden; /* Prevents overflow */
-    background: linear-gradient(to bottom, #311131, #6a0dad); /* Example gradient background */
+    background: linear-gradient(to bottom, #311131, #EA404D); /* Example gradient background */
     padding: 20px; /* Increased top padding (40px) */
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Drop shadow */
+}
+
+body {
+    color: #ffffff; /* Change this to your desired text color */
+    background-color: #311131; /* Optional: Change background color for contrast */
 }
 .btn-custom {
     background-color: #EA404D; /* Change to your desired color */
@@ -109,7 +111,7 @@ header {
     border-radius: 25px; /* Rounded button */
     padding: 10px 20px; /* Adjust padding for button size */
     font-size: 1.2rem; /* Adjust font size */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    transition: background-color 0.7s; /* Smooth transition for hover effect */
 }
 
 .btn-custom:hover {
@@ -130,20 +132,22 @@ body {
 }
 
 .item {
-    background: #311131;
     border: 1px solid #311131;
     border-radius: 25px;
     margin: 10px;
-    padding: 10px;
+    padding: 15px;
     text-align: center;
     width: calc(25% - 20px); /* Adjust width for 4 items */
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Drop shadow */
+	overflow: hidden; /* Prevents overflow */
+    background: linear-gradient(to top, #311131, #EA404D); /* Example gradient background */
 }
 
 .item img {
     max-width: 100%;
     height: auto;
     border-radius: 25px;
+
 }
 
 .item h3 {
@@ -156,13 +160,15 @@ body {
     margin-top: 10px;
     padding: 10px 15px;
     background-color: #EA404D;
-    color: white;
+    color: #000000;
     text-decoration: none;
     border-radius: 25px;
+	transition: background-color 0.7s; /* Smooth transition for hover effect */
 }
 
 .item a:hover {
-    background-color: #0056b3;
+    background-color: #ffcc00;
+	color: white;
 	
 }
 .contact-banner {
