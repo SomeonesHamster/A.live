@@ -65,6 +65,27 @@ footer a:hover {
 	color: #800000;
 	font-weight: bold;
 }
+.navbar {
+    background-color: rgba(228, 65, 76, 0.8); /* Slightly transparent background */
+    border-radius: 40px; /* Rounded corners */
+    padding: 20px 3rem; /* Optional: Add some padding */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Optional: Add a shadow for a floating effect */
+	font-size: 1.25rem; /* Increase text size */
+}
+
+.navbar-brand img {
+    opacity: 1; /* Ensure the logo is fully visible */
+}
+
+.nav-link {
+    color: #ffffff; /* Set text color to white for contrast */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Optional: Add a text shadow for better readability */
+}
+
+.nav-link:hover {
+    color: #ffcc00; /* Change text color on hover for better visibility */
+}
+
 
 /* Hero Section shadow */
 
