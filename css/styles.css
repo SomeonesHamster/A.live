@@ -18,7 +18,10 @@ header {
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #FFFFFF;
+    background-color: #E4414C; /* Background color */
+    border-radius: 25px; /* Rounded corners */
+    padding: 10px; /* Optional: Add some padding */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for a floating effect */
 }
 
 /* Effect on social media buttons */
@@ -42,14 +45,31 @@ footer a:hover {
 		0 0 .2em white,
 		0 0 .5em white;
 }
+header {
+    border-radius: 25px; /* Rounded corners */
+    overflow: hidden; /* Prevents overflow */
+    background: linear-gradient(to bottom, #311131, #6a0dad); /* Example gradient background */
+    padding: 20px; /* Increased top padding (40px) */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Drop shadow */
+}
+.btn-custom {
+    background-color: #EA404D; /* Change to your desired color */
+    color: #000; /* Text color */
+    border-radius: 25px; /* Rounded button */
+    padding: 10px 20px; /* Adjust padding for button size */
+    font-size: 1.2rem; /* Adjust font size */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
 
+.btn-custom:hover {
+    background-color: #e6b800; /* Change color on hover */
+}
 body {
     font-family: Arial, sans-serif;
     background-color: #311131;
     margin: 0;
     padding: 20px;
 }
-
 .gallery {
     display: flex;
     justify-content: space-between;
@@ -57,20 +77,20 @@ body {
 }
 
 .item {
-    background: white;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    background: #311131;
+    border: 1px solid #311131;
+    border-radius: 25px;
     margin: 10px;
     padding: 10px;
     text-align: center;
     width: calc(25% - 20px); /* Adjust width for 4 items */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Drop shadow */
 }
 
 .item img {
     max-width: 100%;
     height: auto;
-    border-radius: 5px;
+    border-radius: 25px;
 }
 
 .item h3 {
@@ -82,10 +102,10 @@ body {
     display: inline-block;
     margin-top: 10px;
     padding: 10px 15px;
-    background-color: #007BFF;
+    background-color: #EA404D;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 25px;
 }
 
 .item a:hover {
@@ -101,7 +121,7 @@ body {
 }
 
 .contact-column {
-    width: 48%; /* Adjust width as needed */
+    width: 50%; /* Adjust width as needed */
     padding: 10px;
 }
 
