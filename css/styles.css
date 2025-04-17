@@ -67,6 +67,8 @@ footer a:hover {
     padding: 20px 3rem; /* Optional: Add some padding */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Optional: Add a shadow for a floating effect */
 	font-size: 1.25rem; /* Increase text size */
+    position: relative; /* Ensure the navbar is positioned relative to the carousel */
+    z-index: 10; /* Higher z-index to ensure it appears above the carousel */
 }
 
 .navbar-brand img {
@@ -83,7 +85,16 @@ footer a:hover {
     color: #ffcc00; /* Change text color on hover for better visibility */
 }
 
+.carousel {
+    position: relative; /* position: relative; /* Ensure the carousel is positioned normally */
+    z-index: 1; /* Lower z-index to allow the navbar to overlap */
+    margin-top: -98px; /* Adjust this value to control how much the navbar overlaps the carousel */
+}
 
+.carousel-inner img {
+    width: 100%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+}
 /* Hero Section shadow */
 
 .white-shadow {
