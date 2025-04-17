@@ -138,11 +138,11 @@ footer a:hover {
 
 body {
     color: #ffffff; /* Change this to your desired text color */
-    background-color: #311131; /* Optional: Change background color for contrast */
+    background-color: #2A0120; /* Optional: Change background color for contrast */
 }
 .btn-custom {
-    background-color: #EA404D; /* Change to your desired color */
-    color: #000; /* Text color */
+    background-color: #0E92D2; /* Change to your desired color */
+    color: #000000; /* Text color */
     border-radius: 25px; /* Rounded button */
     padding: 10px 20px; /* Adjust padding for button size */
     font-size: 1.2rem; /* Adjust font size */
@@ -150,7 +150,7 @@ body {
 }
 
 .btn-custom:hover {
-    background-color: #e6b800; /* Change color on hover */
+    background-color: #12447E; /* Change color on hover */
 }
 
 body {
@@ -194,7 +194,7 @@ body {
     display: inline-block;
     margin-top: 10px;
     padding: 10px 15px;
-    background-color: #EA404D;
+    background-color: #0E92D2;
     color: #000000;
     text-decoration: none;
     border-radius: 25px;
@@ -202,7 +202,7 @@ body {
 }
 
 .item a:hover {
-    background-color: #ffcc00;
+    background-color: #12447E;
 	color: white;
 	
 }
