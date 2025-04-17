@@ -8,15 +8,30 @@ body {
 	font-family: Raleway, sans-serif;
 	background-color: #fffcf8;
 }
+h1 {
+	font-family: "Oswald", sans-serif;
+ 	font-optical-sizing: auto;
+ 	font-weight: 700;
+ 	font-style: normal;
+}
 h2{
 	color: white;
-}
+	font-family: "Oswald", sans-serif;
+ 	font-optical-sizing: auto;
+ 	font-weight: 700;
+ 	font-style: normal;
+}	
+
 h3 {
-	color: white
+	color: white;
 }
 
 h4 {
-	color: white
+	color: white;
+	font-family: "Oswald", sans-serif;
+ 	font-optical-sizing: auto;
+ 	font-weight: 700;
+ 	font-style: normal;
 }
 
 /* Changing the background color for the navigation bar */
