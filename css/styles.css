@@ -42,6 +42,7 @@ h3 {
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
+
 }
 
 h4 {
@@ -58,6 +59,7 @@ h5 {
  	font-style: normal;
 	font-size: 80px;
 }
+
 h5.display-3{
 	font-family: "Oswald", sans-serif;
  	font-optical-sizing: auto;
@@ -89,6 +91,7 @@ a { font-family: "Oswald", sans-serif;
     padding: 10px 3rem; /* Optional: Add some padding */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Optional: Add a shadow for a floating effect */
 	font-size: 1.25rem; /* Increase text size */
+	margin-top: 16px;
 	margin-left: 20px;
 	margin-right: 20px;
 }
