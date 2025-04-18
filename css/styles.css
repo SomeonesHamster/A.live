@@ -3,20 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
 
-html, body {
-    height: 100%; /* Set height to 100% */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
-    overflow-x: hidden; /* Prevent horizontal overflow */
-}
 
 /* Changing the main font and background colour */
 html, body {
-    height: 100%; /* Set height to 100% */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
-    overflow-x: hidden; /* Prevent horizontal overflow */
+    height: 100% !important; /* Set height to 100% */
+    margin: 0 !important; /* Remove default margin */
+    padding: 0 !important; /* Remove default padding */
+    overflow-x: hidden !important; /* Prevent horizontal overflow */
 }
+
 body {
 	color: white;
 	font-family: "Oswald", sans-serif;
@@ -24,18 +19,21 @@ body {
   	font-weight: 300;
   	font-style: normal;
 }
+
 h1 {
 font-family: "Oswald", sans-serif;
  	font-optical-sizing: auto;
  	font-weight: 700;
  	font-style: normal;
 }
+
 h2{
 	color: white;
 	font-family: "Oswald", sans-serif;
  	font-optical-sizing: auto;
  	font-weight: 700;
  	font-style: normal;
+	font-size: 50px;
 }	
 
 h3 {
@@ -53,12 +51,27 @@ h4 {
  	font-weight: 700;
  	font-style: normal;
 }
+h5 {
+	font-family: "Oswald", sans-serif;
+ 	font-optical-sizing: auto;
+ 	font-weight: 700;
+ 	font-style: normal;
+	font-size: 80px;
+}
+h5.display-3{
+	font-family: "Oswald", sans-serif;
+ 	font-optical-sizing: auto;
+ 	font-weight: 700;
+ 	font-style: normal;
+	font-size: 80px;
+}
 
 p {
 	 font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
+	font-size: 20px;
 }
 
 a { font-family: "Oswald", sans-serif;
@@ -73,9 +86,11 @@ a { font-family: "Oswald", sans-serif;
 .navbar {
     background-color: rgba(228, 65, 76, 0.8); /* Slightly transparent background */
     border-radius: 40px; /* Rounded corners */
-    padding: 20px 3rem; /* Optional: Add some padding */
+    padding: 10px 3rem; /* Optional: Add some padding */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Optional: Add a shadow for a floating effect */
 	font-size: 1.25rem; /* Increase text size */
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .navbar-brand img {
@@ -96,12 +111,6 @@ a { font-family: "Oswald", sans-serif;
     margin-top: -78px; /* Adjust this value to the height of your navbar */
     width: 100%; /* Make the image responsive */
     height: auto; /* Maintain aspect ratio */
-}
-
-/* Effect on social media buttons */
-
-footer a:hover {
-	opacity: .5;
 }
 
 /* Corporate navbar */
@@ -160,6 +169,7 @@ footer a:hover {
     padding: 20px; /* Increased top padding (40px) */
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Drop shadow */
 	margin-top: 20px;
+	margin-bottom: 40px;
 }
 
 body {
@@ -241,7 +251,8 @@ body {
 
 .contact-column {
     width: 50%; /* Adjust width as needed */
-    padding: 10px;
+    padding: 20px;
+	margin-left: 20px;
 }
 
 .contact-column h2 {
